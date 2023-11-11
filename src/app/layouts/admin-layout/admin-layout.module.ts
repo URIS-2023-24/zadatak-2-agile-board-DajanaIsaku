@@ -14,7 +14,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { MatDialogModule } from '@angular/material/dialog'
-import { TableListDialogComponent } from 'app/table-list-dialog/table-list-dialog.component';
+import {TaskDialogListComponent} from 'app/task-dialog-list/task-dialog-list.component';
+import { ContributorDialogListComponent } from 'app/contributor-dialog-list/contributor-dialog-list.component';
+
 
 @NgModule({
   imports: [
@@ -35,7 +37,9 @@ import { TableListDialogComponent } from 'app/table-list-dialog/table-list-dialo
     UserProfileComponent,
     TableListComponent,
     NotificationsComponent,
-    TableListDialogComponent
+    TaskDialogListComponent,
+    ContributorDialogListComponent
+
   ]
 })
 
